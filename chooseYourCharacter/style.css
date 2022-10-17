@@ -1,0 +1,84 @@
+* {
+	background-color: yellow;
+	border: solid red 1px;
+}
+
+body{
+}
+
+.coverDiv {
+	z-index: 1;
+	background-color: rgb(0, 192, 118);
+	display: inline-block;
+}
+
+#topCoverDiv {
+	width: 100vw;
+	height: 40vh;
+	float: top;
+}
+
+#bottomCoverDiv {
+	width: 100vw;
+	height: 40vh;
+	float: bottom;
+	justify-content: center;
+	align-items: center;
+}
+
+#leftCoverDiv {
+	height: 204px;
+	width: 40vw;
+	float: left;
+}
+
+#middleSectionDiv {
+	display: inline-block;
+	position: relative;
+	
+}
+
+#characterImg{
+	z-index: 1;
+	position: absolute;
+}
+
+#transparentWindow{
+	background-color: transparent;
+	height: 51px;
+	width: 48px;
+	position: absolute;
+	left: 500px
+}
+
+#rightCoverDiv {
+	height: 204px;
+	left: 48px;
+}
+
+.buttonsMovementDiv {
+	z-index: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(0, 192, 118);
+}
+
+.button {
+    background-color: hotpink;
+	height: 10vh;
+	width: 10vh;
+	align-items: center;
+}
+
+#buttonUp {
+}
+
+#buttonDown {
+}
+
+#buttonLeft {
+}
+
+#buttonRight {
+}
